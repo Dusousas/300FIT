@@ -29,6 +29,10 @@
         margin-top: 0px;
         font-weight: 600;
     }
+    
+    section.textbg a{
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 900px) {
