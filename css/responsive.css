@@ -38,7 +38,7 @@
 }
 
 @media screen and (max-width:800px) {
-    /**********MENU MOBILE*********/
+/**********MENU MOBILE*********/
     nav.menu-mobile i {
         cursor: pointer;
         color: #f3db45;
@@ -60,15 +60,17 @@
         position: absolute;
         left: 0;
         top: 120px;
-        text-align: center;
     }
 
     nav.menu-mobile li {
-        display: block;
+        display:inline;
         margin-top: 15px;
+        background-color: #f3db45;
     }
 
     nav.menu-mobile li a {
+        text-align: center;
+        left: 0;
         display: block;
         padding: 5px 0;
     }
