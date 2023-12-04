@@ -1,0 +1,150 @@
+@media screen and (max-width:1250px) {
+    div.atividades {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-right: 8px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    section.textbg {
+        width: 100%;
+        text-align: center;
+    }
+
+    section.textbg h1 {
+        width: 100%;
+        max-width: none;
+    }
+
+    section.textbg div.btn {
+        margin-top: 20px;
+        align-items: center;
+        display: inline-block;
+    }
+
+    div.btn h2 {
+        left: 0px;
+        margin-top: 0px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width:800px) {
+    /**********MENU MOBILE*********/
+    nav.menu-mobile i {
+        cursor: pointer;
+        color: #f3db45;
+        font-size: 30px;
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+
+    nav.menu-mobile {
+        display: block;
+        text-align: right;
+    }
+
+    nav.menu-mobile ul {
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        transition: 1s;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 120px;
+        text-align: center;
+    }
+
+    nav.menu-mobile li {
+        display: block;
+        margin-top: 15px;
+    }
+
+    nav.menu-mobile li a {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .show-menu {
+        opacity: 1 !important;
+    }
+    /**********MENU MOBILE*********/
+
+    section.bg1 {
+        width: 100%;
+        height: 850px;
+        background-image: url('../img/background1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+    }
+
+    nav.desktop {
+        display: none;
+    }
+
+     div.atividades {
+        margin-right: 8px;
+        width: 80%;
+        max-height: 250px;
+    }
+
+    div.logo-tipo {
+        display: inline-block;
+        text-align: left;
+    }
+
+    div.texto2 {
+        display: none;
+    }
+
+    div.contato {
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    div.funcionamento {
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    div.enderecos {
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carousel img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    div.btn-uni {
+        max-width: 250px;
+    }
+
+    div.maps {
+        margin: 0;
+        width: 98%;
+        display: inline-block;
+        height: 400px;
+    }
+
+    div.maps iframe {
+        width: 98%;
+    }
+
+}
