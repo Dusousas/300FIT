@@ -73,11 +73,12 @@ nav li a:hover {
 
 section.bg1 {
     width: 100%;
-    height: 850px;
+    height: 700px;
     background-image: url('../img/background1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: right;
 }
 
 section.bg1 {
@@ -97,7 +98,7 @@ section.textbg {
     display: inline-block;
     width: 100%;
     position: absolute;
-    top: 300px;
+    top: 250px;
 }
 
 section.textbg h1 {
@@ -158,7 +159,7 @@ section.modalidades h1 {
     width: 100%;
     font-weight: normal;
     font-size: 50px;
-    margin: 40px;
+    margin: 40px 0; 
 }
 
 section.modalidades span {
@@ -167,7 +168,7 @@ section.modalidades span {
 
 div.atividades {
     margin-bottom: 40px;
-    margin-right: 8px;
+    margin-right: 15px;
     width: 19%;
 }
 
