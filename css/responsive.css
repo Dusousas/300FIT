@@ -18,18 +18,6 @@
         max-width: none;
     }
 
-    section.textbg div.btn {
-        margin-top: 20px;
-        align-items: center;
-        display: inline-block;
-    }
-
-    div.btn h2 {
-        left: 0px;
-        margin-top: 0px;
-        font-weight: 600;
-    }
-
     section.textbg a{
         display: inline-block;
     }
@@ -43,47 +31,6 @@
 }
 
 @media screen and (max-width:800px) {
-    /**********MENU MOBILE*********/
-    nav.menu-mobile i {
-        cursor: pointer;
-        color: #f3db45;
-        font-size: 30px;
-        margin-top: 45px;
-        margin-bottom: 10px;
-    }
-
-    nav.menu-mobile {
-        display: block;
-        text-align: right;
-    }
-
-    nav.menu-mobile ul {
-        background-color: rgba(0, 0, 0, 0.7);
-        opacity: 0;
-        transition: 1s;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 120px;
-    }
-
-    nav.menu-mobile li {
-        display:inline;
-        margin-top: 15px;
-        background-color: #f3db45;
-    }
-
-    nav.menu-mobile li a {
-        text-align: center;
-        left: 0;
-        display: block;
-        padding: 5px 0;
-    }
-
-    .show-menu {
-        opacity: 1 !important;
-    }
-    /**********MENU MOBILE*********/
     section.bg1 {
         width: 100%;
         background-image: url('../img/background1.jpg');
@@ -92,10 +39,6 @@
         background-attachment: local;
         height: 750px;
         
-    }
-
-    nav.desktop {
-        display: none;
     }
 
      div.atividades {
@@ -132,6 +75,61 @@
     }
 }
 
+@media screen and (max-width:640px) {
+
+    nav.desktop {
+        display: none;
+    }
+
+    /**********MENU MOBILE*********/
+    nav.menu-mobile i {
+        cursor: pointer;
+        color: #f3db45;
+        font-size: 30px;
+        margin-top: 45px;
+        margin-bottom: 10px;
+
+    }
+
+    nav.menu-mobile {
+        display: block;
+        text-align: right;
+    }
+
+    nav.menu-mobile ul {
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        /* transition: 1s; */
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 120px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .show-menu {
+        display: block;
+        opacity: 1 !important;
+    }
+
+    nav.menu-mobile li {
+        display:inline;
+        margin-top: 15px;
+    }
+
+    nav.menu-mobile li a {
+        text-align: center;
+        left: 0;
+        display: block;
+        padding: 5px 0;
+    }
+    /**********MENU MOBILE*********/
+}
+
+
 @media screen and (max-width: 550px) {
     .carousel img {
         width: 100%;
@@ -139,10 +137,6 @@
 }
 
 @media screen and (max-width:376px) {
-    div.btn-uni {
-        max-width: 250px;
-    }
-
     div.maps {
         margin: 0;
         width: 98%;
@@ -155,3 +149,4 @@
     }
 
 }
+
