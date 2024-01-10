@@ -25,22 +25,21 @@ html {
     margin: 0;
 }
 
-
 header {
     width: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 90;
-    height: 120px;
+    z-index: 1;
+    height:120px;
 }
 
-div .logo-tipo {
+.logo-tipo {
     float: left;
     margin-top: 16px;
 }
 
-div .logo-tipo img {
-    width: 90px;
+.logo-tipo {
+    max-width: 90px;
 }
 
 nav.menu-mobile {
@@ -106,6 +105,7 @@ section.textbg h1 {
     font-size: 50px;
     font-weight: 500;
     max-width: 645px;
+    text-shadow: 2px 2px black;
 }
 
 .textbg h3 {
@@ -113,6 +113,8 @@ section.textbg h1 {
     color: white;
     font-size: 20px;
     font-weight: 500;
+    text-shadow: 2px 2px black;
+
 }
 
 section.textbg p {
@@ -336,6 +338,10 @@ div.enderecos {
     float: right;
 }
 
+.icon-yo{
+    margin-top: 20px;
+}
+
 footer {
     padding: 10px;
 }
@@ -361,5 +367,4 @@ div.contato i {
     cursor: pointer;
     padding: 3px;
     font-size: 30px;
-
 }
